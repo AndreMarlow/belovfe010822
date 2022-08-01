@@ -1,0 +1,79 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.Body {
+  display: flex;
+  flex-direction: row;
+}
+
+.header,.footer,.content { position:absolute; right:0;left:0; background:#CCC}
+
+.header{
+  height:100px; top:0;
+}
+.footer{
+  height:100px; bottom:0;
+}
+.content{
+  top:100px;
+  bottom:100px;
+  background:#DBEAF9;
+  overflow:hidden;
+  display: flex;
+  flex-direction: row;
+}
+
+.content_inner, .panel {
+  height:100%;
+  overflow:auto
+}
+
+.content_inner {
+  width: 100%;
+}
+.panel {
+  width: 500px;
+}
+
+.button {
+
+  border-radius: 10px;
+  padding: 30px;
+  width: 300px;
+  margin: 0 auto;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+}
+
+.cats {
+  background-image: url("./assets/cats.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.chubaka {
+  background-image: url("./assets/chubaka.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dogs {
+  background-image: url("./assets/dogs.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dyno {
+  background-image: url("./assets/dyno.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.planets {
+  background-image: url("./assets/planets.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
